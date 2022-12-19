@@ -1,0 +1,7 @@
+<button  type="button"  (click)="displayDetails()">Display Details</button>
+<p *ngIf="num %2!=0">{{name1}}</p>
+<div *ngFor="let j of arr">
+<p *ngIf="j<5" [ngClass]="{backgroundColor:getColor1()}">{{j}}</p>
+<p *ngIf="j>=5" [ngStyle]="{backgroundColor:getColor()}">{{j}}</p>
+</div>
+
