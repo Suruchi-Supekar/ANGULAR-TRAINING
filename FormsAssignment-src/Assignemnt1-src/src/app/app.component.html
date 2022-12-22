@@ -1,0 +1,32 @@
+<h1 style="color:darkred;text-align: center;">Email Registeration</h1>
+<div>
+  <label for="email"><b>Email: </b></label>
+  <input type="email" placeholder="email" [(ngModel)]="email" class="form-control"  required pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,4}$" >
+
+  <br>
+    <div class="form-group">  
+      <br>
+      <label for="Subscriptions"><b>Subscriptions:</b></label>
+
+      <select name="subscriptions" id="subscriptions" [(ngModel)]="subscriptions" >
+        <option value="Basic">Basic</option>
+        <option value="Advanced">Advanced</option>
+        <option value="Pro">Pro</option>
+      </select>
+      </div>
+      <br>
+      <div>
+        <label for="password"><b>Password: </b></label>
+        <input type="text" placeholder="password" [(ngModel)]="password" class="form-control" required>
+        <br>
+       
+          <div>
+            <button class="btn btn-success" type="button"  (click)="onClickSubmit()">Submit</button>
+            </div>
+<div *ngIf="isClicked">
+  <div *ngFor="let i of arr">
+  <p>{{i.email}}</p>
+  <p>{{i.subscriptions}}</p>
+  <p>{{i.password}}</p>
+  </div>
+  </div>
