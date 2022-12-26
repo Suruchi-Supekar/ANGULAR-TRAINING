@@ -1,0 +1,21 @@
+#leftbox {
+  float:left; 
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 20%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 16px;
+  }
+  tr:nth-child(odd) {
+    background-color:floralwhite;
+  }
+  
+  tr:nth-child(even) {
+    background-color:  rgba(150, 212, 212, 0.4);;
+  }

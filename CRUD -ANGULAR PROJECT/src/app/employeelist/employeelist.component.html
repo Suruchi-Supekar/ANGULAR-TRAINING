@@ -1,0 +1,37 @@
+<br>
+<br>
+<div id="leftbox">
+<table border="1">
+
+    <tr>
+
+        <td><b>Employee Id</b></td>
+
+        <td><b>Employee Name</b></td>
+
+        <td><b>Employee Address</b></td>
+
+        <td><b>Employee MobileNo</b></td>
+
+        <td> <b>Edit</b></td>
+        
+        <td><b>Delete</b></td>
+    </tr>
+
+    <tr  *ngFor = "let e of emp">
+
+        <td>{{e.id}}</td>
+
+        <td>{{e.name}}</td>
+
+        <td>{{e.addr}}</td>
+
+        <td>{{e.mob}}</td>
+
+        <td><button type="button" class="btn btn-primary"(click)="editEmployee(e.id)" >Edit</button></td>
+
+        <td><button type="button" class="btn btn-primary" (click)="deleteRow(e.id)">Delete</button></td>
+    </tr>
+
+</table>
+</div>

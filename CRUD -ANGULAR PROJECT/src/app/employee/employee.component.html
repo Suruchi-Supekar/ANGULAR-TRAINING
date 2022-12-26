@@ -1,0 +1,104 @@
+<body>
+<div style = "position:absolute; left:625px; top:130px; background-color:azure;">
+<div class="row">
+
+<form [formGroup]="employeeform" (ngSubmit)="onSubmit()">
+
+<div class="col-sm-76">
+
+<label  class="col-sm-2 col-form-label"><b>Employee Name: </b></label>
+
+<input type="text" placeholder="name" formControlName="name" [pattern]="namepattern">
+
+<div style="color: red;" *ngIf="employeeform.controls['name'].touched && employeeform.controls['name'].invalid">
+
+    <span *ngIf="employeeform.controls['name'].hasError('required')">name is required</span>
+
+    <span *ngIf="employeeform.controls['name'].hasError('pattern')">only alphabate with
+
+        space between 2 to 20 characters
+
+    </span>
+
+</div>
+
+</div><br>
+
+
+
+<div>
+
+<label for="address"><b>Employee address: </b></label>
+
+<input type="text" placeholder="address" formControlName="addr" required>
+
+<div style="color: red;" *ngIf="employeeform.controls['addr'].touched && employeeform.controls['addr'].invalid">
+
+    <span *ngIf="employeeform.controls['addr'].hasError('required')">address is required</span>
+
+</div>
+
+</div><br>
+
+
+
+<div>
+
+<label for="mobno"><b>Employee mobno: </b></label>
+
+<input type="text" placeholder="mobile no" formControlName="mob" required>
+
+<div style="color: red;" *ngIf="employeeform.controls['mob'].touched && employeeform.controls['mob'].invalid">
+
+    <span *ngIf="employeeform.controls['mob'].hasError('required')">mobile no is required</span>
+
+    <span *ngIf="employeeform.controls['mob'].getError?.length">use 10 digit mob no</span>
+
+</div>
+
+</div><br>
+
+
+
+<div>
+
+<label for="id"><b>Employee id: </b></label>
+
+<input type="text" placeholder="id" formControlName="id"  required>
+
+<div style="color: red;" *ngIf="employeeform.controls['id'].touched && employeeform.controls['id'].invalid">
+
+    <span *ngIf="employeeform.controls['id'].hasError('required')">id is required</span>
+
+    <span *ngIf="employeeform.controls['id'].hasError('pattern')">inavlid id</span>
+
+</div>
+
+</div>
+
+
+
+<div>
+
+<input type="submit" value="Add Record">
+
+</div>
+
+
+</form>
+<div class="form-group">
+
+    <button class="btn btn-warning" (click)="Reset()">Reset</button>
+
+</div>
+
+</div>
+
+
+
+<br>
+
+<br>
+</div>
+</body>
+
