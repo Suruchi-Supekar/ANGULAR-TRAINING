@@ -1,0 +1,135 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "fullName": "suruchi",
+      "email": "ss@gmail.com",
+      "password": "1234",
+      "gender": "Female",
+      "dob": "2000-05-30T18:30:00.000Z",
+      "mob": "4535435",
+      "skills": "Angular Basic",
+      "userName": "",
+      "id": 2
+    },
+    {
+      "userName": "ss123",
+      "password": "1234",
+      "id": 3
+    },
+    {
+      "userName": "suruchi",
+      "password": "1234",
+      "id": 4
+    },
+    {
+      "userName": "",
+      "password": "",
+      "id": 5
+    },
+    {
+      "userName": "",
+      "password": "",
+      "id": 6
+    },
+    {
+      "userName": "",
+      "password": "",
+      "id": 7
+    },
+    {
+      "userName": "",
+      "password": "",
+      "id": 8
+    },
+    {
+      "userName": "",
+      "password": "",
+      "id": 9
+    },
+    {
+      "userName": "",
+      "password": "",
+      "id": 10
+    },
+    {
+      "userName": "",
+      "password": "",
+      "id": 11
+    },
+    {
+      "userName": "",
+      "password": "",
+      "id": 12
+    },
+    {
+      "userName": "",
+      "password": "",
+      "id": 13
+    },
+    {
+      "userName": "sss",
+      "password": "123",
+      "id": 14
+    },
+    {
+      "userName": "",
+      "password": "",
+      "id": 15
+    },
+    {
+      "userName": "",
+      "password": "",
+      "id": 16
+    },
+    {
+      "userName": "",
+      "password": "",
+      "id": 17
+    },
+    {
+      "userName": "ss",
+      "password": "123",
+      "id": 18
+    },
+    {
+      "userName": "",
+      "password": "",
+      "id": 19
+    },
+    {
+      "userName": "",
+      "password": "",
+      "id": 20
+    },
+    {
+      "userName": "Suruchi Supekar",
+      "password": "455",
+      "id": 21
+    },
+    {
+      "userName": "",
+      "password": "",
+      "id": 22
+    },
+    {
+      "userName": "",
+      "password": "",
+      "id": 23
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
