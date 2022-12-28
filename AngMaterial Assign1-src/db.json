@@ -1,0 +1,229 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "fullName": "Suruchi Supekar",
+      "email": "ss@gmail.com",
+      "password": "ss1234",
+      "gender": "",
+      "dob": "2000-05-30T18:30:00.000Z",
+      "mob": "8989890034",
+      "skills": "Angular Basic",
+      "id": 2
+    },
+    {
+      "fullName": "Suruchi Supekar",
+      "email": "ss@gmail.com",
+      "password": "ss1234",
+      "gender": "",
+      "dob": "2000-05-30T18:30:00.000Z",
+      "mob": "9909878990",
+      "skills": "Angular Basic",
+      "id": 3
+    },
+    {
+      "fullName": "Suruchi Supekar",
+      "email": "ss@gmail.com",
+      "password": "ss1234",
+      "gender": "",
+      "dob": "2000-05-30T18:30:00.000Z",
+      "mob": "9909878990",
+      "skills": "Angular Basic",
+      "id": 4
+    },
+    {
+      "fullName": "Suruchi Supekar",
+      "email": "ss@gmail.com",
+      "password": "ss1234",
+      "gender": "",
+      "dob": "2000-05-30T18:30:00.000Z",
+      "mob": "9909878990",
+      "skills": "Angular Basic",
+      "id": 5
+    },
+    {
+      "fullName": "Suruchi Supekar",
+      "email": "ss@gmail.com",
+      "password": "ss1234",
+      "gender": "",
+      "dob": "2000-05-30T18:30:00.000Z",
+      "mob": "9909878990",
+      "skills": "Angular Basic",
+      "id": 6
+    },
+    {
+      "fullName": "Suruchi Supekar",
+      "email": "ss@gmail.com",
+      "password": "ss1234",
+      "gender": "",
+      "dob": "2000-05-30T18:30:00.000Z",
+      "mob": "9909878990",
+      "skills": "Angular Basic",
+      "id": 7
+    },
+    {
+      "fullName": "Suruchi Supekar",
+      "email": "ss@gmail.com",
+      "password": "ss1234",
+      "gender": "",
+      "dob": "2000-05-30T18:30:00.000Z",
+      "mob": "9909878990",
+      "skills": "Angular Basic",
+      "id": 8
+    },
+    {
+      "fullName": "Suruchi Supekar",
+      "email": "ss@gmail.com",
+      "password": "ss1234",
+      "gender": "",
+      "dob": "2000-05-30T18:30:00.000Z",
+      "mob": "9909878990",
+      "skills": "Angular Basic",
+      "id": 9
+    },
+    {
+      "fullName": "Suruchi Supekar",
+      "email": "ss@gmail.com",
+      "password": "ss1234",
+      "gender": "",
+      "dob": "2000-05-30T18:30:00.000Z",
+      "mob": "9909878990",
+      "skills": "Angular Basic",
+      "id": 10
+    },
+    {
+      "fullName": "Suruchi Supekar",
+      "email": "ss@gmail.com",
+      "password": "ss1234",
+      "gender": "",
+      "dob": "2000-05-30T18:30:00.000Z",
+      "mob": "9909878990",
+      "skills": "Angular Basic",
+      "id": 11
+    },
+    {
+      "fullName": "Suruchi Supekar",
+      "email": "ss@gmail.com",
+      "password": "ss1234",
+      "gender": "",
+      "dob": "2000-05-30T18:30:00.000Z",
+      "mob": "9909878990",
+      "skills": "Angular Basic",
+      "id": 12
+    },
+    {
+      "fullName": "Suruchi Supekar",
+      "email": "ss@gmail.com",
+      "password": "ss1234",
+      "gender": "",
+      "dob": "2000-05-30T18:30:00.000Z",
+      "mob": "9909878990",
+      "skills": "Angular Basic",
+      "id": 13
+    },
+    {
+      "fullName": "Suruchi Supekar",
+      "email": "ss@gmail.com",
+      "password": "ss1234",
+      "gender": "",
+      "dob": "2000-05-30T18:30:00.000Z",
+      "mob": "9909878990",
+      "skills": "Angular Basic",
+      "id": 14
+    },
+    {
+      "fullName": "Suruchi Supekar",
+      "email": "ss@gmail.com",
+      "password": "ss1234",
+      "gender": "",
+      "dob": "2000-05-30T18:30:00.000Z",
+      "mob": "9909878990",
+      "skills": "Angular Basic",
+      "id": 15
+    },
+    {
+      "fullName": "Suruchi Supekar",
+      "email": "ss@gmail.com",
+      "password": "ss1234",
+      "gender": "",
+      "dob": "2000-05-30T18:30:00.000Z",
+      "mob": "9909878990",
+      "skills": "Angular Basic",
+      "id": 16
+    },
+    {
+      "fullName": "Suruchi Supekar",
+      "email": "ss@gmail.com",
+      "password": "ss1234",
+      "gender": "",
+      "dob": "2000-05-30T18:30:00.000Z",
+      "mob": "9909878990",
+      "skills": "Angular Basic",
+      "id": 17
+    },
+    {
+      "fullName": "Suruchi Supekar",
+      "email": "ss@gmail.com",
+      "password": "ss1234",
+      "gender": "",
+      "dob": "2000-05-30T18:30:00.000Z",
+      "mob": "9909878990",
+      "skills": "Angular Basic",
+      "id": 18
+    },
+    {
+      "fullName": "Suruchi Supekar",
+      "email": "ss@gmail.com",
+      "password": "ss1234",
+      "gender": "",
+      "dob": "2000-05-30T18:30:00.000Z",
+      "mob": "9909878990",
+      "skills": "Angular Basic",
+      "id": 19
+    },
+    {
+      "fullName": "Suruchi Supekar",
+      "email": "ss@gmail.com",
+      "password": "ss1234",
+      "gender": "",
+      "dob": "2000-05-30T18:30:00.000Z",
+      "mob": "9909878990",
+      "skills": "Angular Basic",
+      "id": 20
+    },
+    {
+      "fullName": "Anamika",
+      "email": "aa@gmail.com",
+      "password": "aa1234",
+      "gender": "",
+      "dob": "2016-12-13T18:30:00.000Z",
+      "mob": "8989897",
+      "skills": "Angular Basic",
+      "id": 21
+    },
+    {
+      "fullName": "Shiti Kunawat",
+      "email": "sk@gmail.com",
+      "password": "sk1234",
+      "gender": "",
+      "dob": "2000-04-07T18:30:00.000Z",
+      "mob": "4535435",
+      "skills": "Angular Intermediate",
+      "id": 22
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
