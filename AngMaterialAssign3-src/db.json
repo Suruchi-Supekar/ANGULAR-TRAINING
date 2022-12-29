@@ -1,0 +1,46 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "fullName": "Suruchi Supekar",
+      "email": "suruchi@gmail.com",
+      "password": "",
+      "gender": "Female",
+      "dob": "2000-05-30T18:30:00.000Z",
+      "mob": "6788431235",
+      "skills": "Angular Basic",
+      "userName": "",
+      "id": 2
+    },
+    {
+      "fullName": "Aditi Jain",
+      "email": "aj@gmail.com",
+      "password": "",
+      "gender": "Female",
+      "dob": "2016-06-13T18:30:00.000Z",
+      "mob": "8989009873",
+      "skills": "Angular Intermediate",
+      "userName": "",
+      "id": 3
+    },
+    {
+      "userName": "suruchi",
+      "password": "",
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
