@@ -1,0 +1,176 @@
+<mat-stepper #stepper>
+    <mat-step [stepControl]="firstFormGroup">
+    
+    <div class="parent">
+      <form [formGroup]="firstFormGroup">
+
+        <ng-template matStepLabel>Basic Information</ng-template>
+
+        <mat-form-field appearance="fill">
+          <mat-label>Name</mat-label>
+          <input matInput placeholder="First name" formControlName="fullName" required>
+          <mat-icon class="material-icons" matSuffix>people</mat-icon>
+         </mat-form-field><br>
+
+         <mat-form-field appearance ="fill">
+            <input matInput placeholder="Enter email" formControlName="email" required>
+            <mat-icon class="material-icons" matSuffix>email</mat-icon>
+            </mat-form-field><br>
+
+            <mat-form-field appearance="fill">
+                <mat-label>Father's Name</mat-label>
+                <input matInput placeholder="Father's name" formControlName="fathersName" required>
+                <mat-icon class="material-icons" matSuffix>people</mat-icon>
+               </mat-form-field><br>
+
+               <mat-form-field appearance="fill">
+                <mat-label>Mother's Name</mat-label>
+                <input matInput placeholder="Mother's name" formControlName="mothersName" required>
+                <mat-icon class="material-icons" matSuffix>people</mat-icon>
+               </mat-form-field><br>
+
+               <div><mat-label><b>Gender:</b></mat-label></div>
+               <mat-radio-group aria-label="gender"  formControlName="gender">  
+               <mat-radio-button value="Male" color="primary">
+                 <mat-icon class="material-icons" mat-icon>male</mat-icon>
+                 Male
+                 <mat-radio-button value="Female" color="primary"></mat-radio-button>
+                   <mat-icon class="material-icons" mat-icon>female</mat-icon>
+                   Female
+                   <mat-radio-button value="Other" color="primary"></mat-radio-button>
+                     <mat-icon class="material-icons" mat-icon>transgender</mat-icon>
+                     Other
+                   </mat-radio-button><br><br>
+                   </mat-radio-group>
+
+                   <div>
+                    <mat-form-field appearance="fill">
+                    <mat-label>Choose a date</mat-label>
+                    <input matInput [matDatepicker]="picker" formControlName="dob" class="form-control">
+                    <mat-hint>MM/DD/YYYY</mat-hint>
+                    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                    <mat-datepicker #picker></mat-datepicker>
+                    </mat-form-field>
+                    </div><br>
+                   
+                    <div><mat-label><b>Mobile No</b></mat-label></div>
+                    <div>
+                        <mat-form-field appearance ="fill">
+                        <input matInput placeholder="Enter mob" formControlName="mob">
+                        <mat-icon class="material-icons" matSuffix>phone</mat-icon>
+                        <mat-hint>Enter Mobile</mat-hint>
+                        </mat-form-field>
+                        </div><br>
+
+       
+        <div>
+        <button mat-button color="primary" matStepperNext>Next</button>
+        </div>
+        
+      </form>
+      </div>
+
+    </mat-step>
+
+    <mat-step [stepControl]="firstFormGroup" label="Bank Details" [optional]="!isOptional">
+
+        <div class="parent">
+      <form [formGroup]="firstFormGroup">
+        <div>
+            <mat-form-field appearance ="fill" style="margin-top: 10px;">
+            <input matInput placeholder="Enter fullName" formControlName="fullName" required>
+            <mat-icon class="material-icons" matSuffix>people</mat-icon>
+            <mat-hint>Enter fullName</mat-hint>
+            </mat-form-field>
+            </div><br>
+
+            <div>
+                <mat-form-field appearance ="fill" style="margin-top: 10px;">
+                <input matInput placeholder="Enter AccountNo" formControlName="accountNo" required>
+                <mat-icon class="material-icons" matSuffix>account_balance</mat-icon>
+                <mat-hint>Enter BankAccountNo</mat-hint>
+                </mat-form-field>
+                </div><br>
+             
+                <div>
+                    <mat-form-field appearance ="fill" style="margin-top: 10px;">
+                    <input matInput placeholder="Enter BankName" formControlName="bankName" required>
+                    <mat-icon class="material-icons" matSuffix>account_box</mat-icon>
+                    <mat-hint>Enter BankName</mat-hint>
+                    </mat-form-field>
+                    </div><br>
+
+                    <div>
+                        <mat-form-field appearance ="fill" style="margin-top: 10px;">
+                        <input matInput placeholder="IFSC Code" formControlName="ifsc" required>
+                        <mat-icon class="material-icons" matSuffix>account_balance</mat-icon>
+                        <mat-hint>IFSC Code</mat-hint>
+                        </mat-form-field>
+                        </div><br>
+            
+                        <div><mat-label><b>You have internet banking:</b></mat-label></div>
+                        <mat-radio-group aria-label="internetBanking"  formControlName="internetBanking">  
+                        <mat-radio-button value="Yes" color="primary">
+                          <mat-icon class="material-icons" mat-icon>done</mat-icon>
+                          YES
+                          <mat-radio-button value="No" color="primary"></mat-radio-button>
+                            <mat-icon class="material-icons" mat-icon>clear</mat-icon>
+                            NO
+                            </mat-radio-button><br><br>
+                            </mat-radio-group>
+
+                            <div><mat-label><b>You have mobile banking:</b></mat-label></div>
+                              <mat-radio-group aria-label="mobileBanking"  formControlName="mobileBanking">  
+                            <mat-radio-button value="Yes" color="primary">
+                              <mat-icon class="material-icons" mat-icon>done</mat-icon>
+                              YES
+                              <mat-radio-button value="No" color="primary"></mat-radio-button>
+                                <mat-icon class="material-icons" mat-icon>clear</mat-icon>
+                                NO
+                                </mat-radio-button><br><br>
+                                </mat-radio-group>
+
+        <div>
+          <button mat-button color="primary" matStepperPrevious>Back</button>
+          <button mat-button color="primary" matStepperNext>Next</button>
+        </div>
+    </form>
+    </div>
+
+</mat-step>
+       
+      <mat-step [stepControl]="firstFormGroup" label="Communication Address">
+
+        <div class="parent">
+         <form [formGroup]="firstFormGroup">
+           <mat-form-field appearance="fill">
+            <mat-label>Present Address</mat-label>
+         <textarea matInput  placeholder="address" formControlName="presentAddress" (keyup)="onKeyUp($event)" required></textarea>
+            <mat-icon class="material-icons" matSuffix>home</mat-icon>
+
+            <div>
+              {{numberOfCharacters1}} / {{maxNumberOfCharacters}}
+            </div>
+          </mat-form-field> <br>
+
+          <mat-form-field appearance="fill">
+            <mat-label>Permanent Address</mat-label>
+            <textarea matInput formControlName="permanentAddress" placeholder="Address" (keyup)="onKeyUp2($event)"required></textarea>
+            <mat-icon class="material-icons" matSuffix>home</mat-icon>
+
+            <div>
+              {{numberOfCharacters2}} / {{maxNumberOfCharacters}}
+            </div>
+          </mat-form-field>
+
+      <div>
+        <button mat-button color="primary" matStepperPrevious>Back</button>
+        <button mat-button color="primary" (click)="onSubmit()">Submit</button>
+      </div>
+
+     </form>
+  </div>
+    </mat-step>
+  </mat-stepper>
+ 
+

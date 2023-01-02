@@ -1,0 +1,111 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "fullName": "Suruchi Supekar",
+      "email": "suruchi@gmail.com",
+      "password": "",
+      "gender": "Female",
+      "dob": "2000-05-30T18:30:00.000Z",
+      "mob": "6788431235",
+      "skills": "Angular Basic",
+      "userName": "",
+      "id": 2
+    },
+    {
+      "fullName": "Aditi Jain",
+      "email": "aj@gmail.com",
+      "password": "",
+      "gender": "Female",
+      "dob": "2016-06-13T18:30:00.000Z",
+      "mob": "8989009873",
+      "skills": "Angular Intermediate",
+      "userName": "",
+      "id": 3
+    },
+    {
+      "userName": "suruchi",
+      "password": "ss1234",
+      "id": 4
+    },
+    {
+      "fullName": "Utsavi Bhoge",
+      "email": "utsavi@yash.com",
+      "password": "",
+      "gender": "Female",
+      "dob": "2001-03-13T18:30:00.000Z",
+      "mob": "87398213",
+      "skills": "Angular Intermediate",
+      "userName": "",
+      "id": 5
+    },
+    {
+      "fullName": "Aditi Jain",
+      "email": "aj@gmail.com",
+      "fathersName": "VJ",
+      "mothersName": "AJ",
+      "gender": "Female",
+      "dob": "2000-04-25T18:30:00.000Z",
+      "mob": "79739812",
+      "accountNo": "798372",
+      "bankName": "sbi",
+      "ifsc": "2344",
+      "internetBanking": "No",
+      "mobileBanking": "Yes",
+      "presentAddress": "indore",
+      "permanentAddress": "indore",
+      "id": 7
+    },
+    {
+      "fullName": "Suruchi Supekar",
+      "email": "ss@gmail.com",
+      "fathersName": "Santosh Supekar",
+      "mothersName": "Krutika Supekar",
+      "gender": "Female",
+      "dob": "2000-05-30T18:30:00.000Z",
+      "mob": "979047093",
+      "accountNo": "343546646",
+      "bankName": "SBI",
+      "ifsc": "793509345",
+      "internetBanking": "Yes",
+      "mobileBanking": "Yes",
+      "presentAddress": "bhawarkuan indore",
+      "permanentAddress": "Sudama Nagar ,Agar Road ujjain",
+      "id": 8
+    },
+    {
+      "userName": "uiuhk",
+      "password": "",
+      "id": 9
+    },
+    {
+      "userName": "sss",
+      "password": "",
+      "id": 10
+    },
+    {
+      "userName": "suruchi",
+      "password": "",
+      "id": 11
+    },
+    {
+      "userName": "suruchi",
+      "password": "",
+      "id": 12
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
